@@ -11,7 +11,7 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
         port: 3000,  // Usa a porta fornecida pelo ambiente ou 3000 como fallback
-        host: true,
+        host: 'https://m3p-backend-squad3-3vsm.onrender.com',
       },
     },
   },
