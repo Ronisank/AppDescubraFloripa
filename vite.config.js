@@ -7,10 +7,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://viacep.com.br',
+        target: 'https://m3p-backend-squad3-3vsm.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
-        port: process.env.PORT_API || 3000,  // Usa a porta fornecida pelo ambiente ou 3000 como fallback
+        port: 3000,  // Usa a porta fornecida pelo ambiente ou 3000 como fallback
         host: true,
       },
     },
