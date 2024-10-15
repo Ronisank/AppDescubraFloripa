@@ -1,0 +1,148 @@
+.row {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gradient-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #F9A620, #A8D5E2, #104911);
+  padding: 40px;
+  color: white;
+  text-align: center;
+  
+}
+
+.text-container {
+  max-width: 400px;
+  text-align: center;
+}
+
+.text-container h4 {
+  font-size: 2rem;
+  color: var(---muted-color); 
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container-login {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1.titulo-login {
+  color: var(--muted-color);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.logo-login {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 2px solid var(--highlight-color);
+  border-radius: 5px;
+  color: #333;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 8px rgba(249, 166, 32, 0.4);
+}
+
+.btn-login {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: var(--highlight-color);
+}
+
+.text-span {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted-color); 
+  display: block;
+  width: 100%;
+}
+
+.text-signup {
+  margin-left: 5px;
+  color: var(--muted-color); 
+  text-decoration: none;
+  display: block; 
+  text-align: center; 
+  font-weight: bold;
+}
+
+.text-signup:hover {
+  color: var(--highlight-color); /* Amarelo no hover */
+}
+
+h5 {
+  color: var(--muted-color); /* Verde escuro para InsightViagem365 */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.video-bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1;
+  filter: brightness(0.6); 
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}

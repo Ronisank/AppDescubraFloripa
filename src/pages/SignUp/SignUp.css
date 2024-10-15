@@ -1,0 +1,106 @@
+/* Estilização Geral */
+.container-SignUp {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  padding: 0;
+}
+
+
+.signup-content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 0;
+}
+
+.signup-form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  max-width: 700px;
+  width: 100%; 
+}
+
+.enderecoNumero{
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-signup {
+  width: 100%;
+  /* Alterar espaçamento dos inpts */
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--highlight-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--highlight-color);
+}
+
+
+.signup-image {
+  background: url('/src/assets/paginacadastro.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+}
+
+.form-check {
+  margin-right: 15px; 
+  height: 0px;
+}
+
+.form-input-duplo {
+  display: flex;
+  gap: 7px; 
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+
+@media (max-width: 768px) {
+  .signup-content {
+    flex-direction: column;
+  }
+
+}

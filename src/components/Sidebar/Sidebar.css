@@ -1,0 +1,93 @@
+.elements-sidebar a{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #104911 ;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  height: 100vh;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.links{
+  color: #ffffff!important;
+  margin-left:0.5em;
+  transition: transform 0.3s ease;
+}
+
+.links:hover{
+  transform: scale(1.2);
+}
+
+
+.buttonSair{
+  background-color: 
+  color:#FFF;
+  padding: 0.3em;
+  margin: 1em 2em;
+}
+.buttonSair:hover{
+  background-color: rgb(36, 179, 38);
+}
+
+.sidebar-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+
+h6{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+.user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.home {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-right: auto;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.home-icon {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-right: auto;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.locations {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-right: auto;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.logout button{
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+.mappin a{
+  color: #ffffff;
+  text-decoration: none;
+}
