@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiToken = axios.create({
-  baseURL: "https://m3p-backend-squad3-3vsm.onrender.com",
+  baseURL: "http://localhost:3000/",
 });
 
 apiToken.interceptors.request.use(
