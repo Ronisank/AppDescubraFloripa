@@ -5,14 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   server: {
-    proxy: {
-      '/api': {
-        target: 'https://viacep.com.br',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
+    base: 'https://appdescubrafloripa.onrender.com',
         port: process.env.PORT_API || 3000,  // Usa a porta fornecida pelo ambiente ou 3000 como fallback
         host: true,
       },
-    },
-  },
 })
